@@ -1,0 +1,10 @@
+# Editor settings
+.vscode/
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+
+# Temporary files
+.DS_Store
