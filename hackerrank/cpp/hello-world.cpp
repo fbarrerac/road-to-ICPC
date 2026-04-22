@@ -1,7 +1,7 @@
 /*
  * Problem: Say "Hello, World!" With C++
  * Platform: HackerRank
- * Category: Introduction
+ * Link: https://www.hackerrank.com/challenges/cpp-hello-world/problem
  * Difficulty: Easy
  */
 
