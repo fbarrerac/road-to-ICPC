@@ -8,13 +8,15 @@
 #include <cstdio>
 
 int main() {
-    int i = 3;
-    long long l = 12345678912345;
-    char c = 'a';
-    float f = 334.23f;
-    double d = 14049.30493;
+    int i;
+    long long l;
+    char c;
+    float f;
+    double d;
 
-    printf("%d\n%lld\n%c\n%.2f\n%.5lf", i, l, c, f, d);
+    scanf("%d %lld %c %f %lf", &i, &l, &c, &f, &d);
+
+    printf("%d\n%lld\n%c\n%f\n%lf", i, l, c, f, d);
 
     return 0;
 }
