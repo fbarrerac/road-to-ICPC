@@ -1,0 +1,19 @@
+---
+# Usamos Google como base para no tener que definir todo
+BasedOnStyle: Google
+
+# Las llaves de apertura se quedan en la misma línea (Attach)
+BreakBeforeBraces: Attach
+
+# Permite que los 'if' cortos se queden en una sola línea
+AllowShortIfStatementsOnASingleLine: true
+
+# Permite que funciones muy cortas se queden en una sola línea
+AllowShortFunctionsOnASingleLine: All
+
+# Evita que el formateador rompa líneas basadas en el ancho de la pantalla
+ColumnLimit: 0
+
+# Indentación de 4 espacios (puedes cambiarlo a 2 si prefieres)
+IndentWidth: 4
+---
