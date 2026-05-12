@@ -22,8 +22,14 @@ struct Node {
  * Space Complexity: O(1)
  */
 Node* insertNodeAtPosition(Node* head, int data, int position) {
-    Node* newNode = new Node(data);
+    Node* new_node = new Node(data);
     Node* current = head;
+
+    // Special case: Inserting at the head (position 0)
+    if (position == 0) {
+        new_node->next = head;
+        return new_node;
+    }
 
     // Traverse to the node immediately before the target position
     for (int i = 0; i < position - 1; i++) {
@@ -31,8 +37,8 @@ Node* insertNodeAtPosition(Node* head, int data, int position) {
     }
 
     // Wiring the new node into the sequence
-    newNode->next = current->next;
-    current->next = newNode;
+    new_node->next = current->next;
+    current->next = new_node;
 
     return head;
 }
