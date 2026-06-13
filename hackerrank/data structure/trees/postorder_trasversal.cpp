@@ -1,5 +1,5 @@
 /*
- * Problem: Postorder Transversal
+ * Problem: Postorder Trasversal
  * Platform: HackerRank
  * Link: https://www.hackerrank.com/challenges/tree-postorder-traversal/problem
  * Difficulty: Easy

@@ -1,5 +1,5 @@
 /*
- * Problem: Preorder Transversal
+ * Problem: Preorder Trasversal
  * Platform: HackerRank
  * Link: https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
  * Difficulty: Easy
